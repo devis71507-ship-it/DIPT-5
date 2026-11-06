@@ -88,7 +88,9 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="922" height="573" alt="image" src="https://github.com/user-attachments/assets/5640d96c-f41f-4a55-9b0b-c6f559c93b82" />
+
+<img width="686" height="412" alt="image" src="https://github.com/user-attachments/assets/ac89cac3-45cf-4f5e-8a93-e4106dcc8935" />
+
 
 ```
 kernel1=np.array([[1,2,1],[2,4,2],[1,2,1]])/16
@@ -105,7 +107,9 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="657" height="422" alt="image" src="https://github.com/user-attachments/assets/2b72da36-82c6-48b3-86b1-7d3ce14e12eb" />
+
+<img width="480" height="302" alt="image" src="https://github.com/user-attachments/assets/ecc29b19-6d60-4fbe-8c49-071af43d6cac" />
+
 
 ```
 gaussian_blur=cv2.GaussianBlur(image2,(33,33),0,0)
@@ -120,7 +124,9 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="652" height="422" alt="image" src="https://github.com/user-attachments/assets/4ab2ce03-e1ae-496c-b889-e16ac0128bb0" />
+
+<img width="450" height="297" alt="image" src="https://github.com/user-attachments/assets/0f11fe6f-16ad-4bde-8b3d-22b7412091c0" />
+
 
 ```
 median=cv2.medianBlur(image2,13)
@@ -136,7 +142,9 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="903" height="575" alt="image" src="https://github.com/user-attachments/assets/d1086bc8-60ee-4fd8-9645-c7d4423be275" />
+
+<img width="650" height="418" alt="image" src="https://github.com/user-attachments/assets/dcf95097-7f7a-45b8-a4ee-56e43aabf15f" />
+
 
 ### Sharpening Filters
 - Laplacian kernel enhances edges and fine details
@@ -156,7 +164,8 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="617" height="415" alt="image" src="https://github.com/user-attachments/assets/c9f53663-df90-4d27-8d24-b741c523ccc3" />
+
+<img width="463" height="312" alt="image" src="https://github.com/user-attachments/assets/48196e69-e59a-4252-8da0-6d773f114e9b" />
 
 ```
 laplacian = cv2.Laplacian(image2, cv2.CV_64F)
@@ -172,7 +181,7 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="637" height="421" alt="image" src="https://github.com/user-attachments/assets/96c8474a-3437-4724-a474-4347b952d021" />
+<img width="471" height="312" alt="image" src="https://github.com/user-attachments/assets/701679e0-8f2a-4d06-a629-dedf803f02f6" />
 
 ## Result
 
